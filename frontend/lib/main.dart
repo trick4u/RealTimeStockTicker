@@ -73,7 +73,7 @@ class _MovieTabState extends State<MovieTab> {
   @override
   Widget build(BuildContext context) {
     return CarouselSlider(
-      items:
+      items: 
           movies
               .map(
                 (movie) => Container(
